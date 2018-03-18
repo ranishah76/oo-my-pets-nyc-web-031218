@@ -22,4 +22,8 @@ class Owner
     OWNERS.clear
   end 
 
+  def say_species 
+    "I am a #{species}"
+  end 
+
 end
