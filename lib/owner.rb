@@ -67,6 +67,7 @@ class Owner
 
   def list_pets
     pets.each do |species, animals|
+      species.each do |specimen|
       binding.pry
       puts "I have #{animals.count} #{species}"
     end
