@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :owner
+  attr_accessor :name
   OWNERS = []
 
   def initialize
@@ -9,6 +9,6 @@ class Owner
 
   def self.all
     OWNERS
-  end 
+  end
 
 end
