@@ -66,16 +66,8 @@ class Owner
   end
 
   def list_pets
-    pets.each do |species, animals|
-      animals.each do |animal|
-      binding.pry
-      puts "I have #{animals.count} #{species}"
-    end
+    puts "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dogs and #{pets[.cats].count} cats."
   end
-
-
-end
-
 
 
 end
