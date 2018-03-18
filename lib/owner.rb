@@ -64,6 +64,12 @@ class Owner
     end
   end
 
+  def list_pets
+    pets.each do |species, animals|
+      puts "I have #{animals.count} #{species}"
+    end
+  end 
+
 
 end
 
