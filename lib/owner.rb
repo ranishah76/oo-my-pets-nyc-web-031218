@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   OWNERS = []
   attr_accessor :name, :pets
