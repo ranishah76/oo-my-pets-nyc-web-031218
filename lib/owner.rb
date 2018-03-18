@@ -20,10 +20,10 @@ class Owner
 
   def self.reset_all
     OWNERS.clear
-  end 
+  end
 
-  def say_species 
-    "I am a #{species}"
-  end 
+  def say_species
+    "I am a #{species}."
+  end
 
 end
