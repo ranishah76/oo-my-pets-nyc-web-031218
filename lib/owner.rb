@@ -5,12 +5,16 @@ class Owner
   OWNERS = []
 
   def initialize(species)
-    @species = species 
+    @species = species
     OWNERS << self
   end
 
   def self.all
     OWNERS
   end
+
+  def self.count
+    self.all.count
+  end 
 
 end
