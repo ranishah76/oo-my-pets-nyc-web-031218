@@ -42,6 +42,7 @@ class Owner
     pets[:dogs].each do
       dog[:moood] = "happy"
   end
+end 
 
 
 
