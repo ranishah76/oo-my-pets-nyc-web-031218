@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   # code goes here
   attr_accessor :name, :pets
@@ -69,7 +70,7 @@ class Owner
       binding.pry
       puts "I have #{animals.count} #{species}"
     end
-  end 
+  end
 
 
 end
